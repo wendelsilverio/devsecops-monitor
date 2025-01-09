@@ -8,6 +8,25 @@ The Monitor phase is critical in DevSecOps, focusing on ensuring the software re
 - **Grafana**: An open-source platform for monitoring and observability, used to visualize metrics and create dashboards.
 - **Blackbox Exporter**: A Prometheus exporter for probing endpoints such as HTTP, HTTPS, DNS, TCP, ICMP, and gRPC.
 
+## 🛠️ Installation
+
+To install and set up the project, follow these steps:
+
+1. Clone the repository:
+
+    ```sh
+    git clone https://github.com/wendelsilverio/devsecops-monitor.git
+    cd devsecops-monitor
+    ```
+
+2. Install Docker by following the instructions [here](https://docs.docker.com/get-docker/).
+
+3. Set up the development environment with Docker:
+
+    ```sh
+    docker-compose up
+    ```
+
 ## 📅 Activity List
 
 ### Define Monitoring Requirements
@@ -15,10 +34,10 @@ The Monitor phase is critical in DevSecOps, focusing on ensuring the software re
 - [ ] Determine data collection frequency and necessary alerts.
 
 ### Set Up Monitoring Environment
-- [ ] Create a `docker-compose.yml` file to configure monitoring services.
-- [ ] Configure Prometheus to collect metrics.
-- [ ] Configure Blackbox Exporter to monitor URL availability.
-- [ ] Configure Grafana to visualize collected metrics.
+- [X] Create a `docker-compose.yml` file to configure monitoring services.
+- [X] Configure Prometheus to collect metrics.
+- [X] Configure Blackbox Exporter to monitor URL availability.
+- [X] Configure Grafana to visualize collected metrics.
 
 ## 🤝 Contributing
 
