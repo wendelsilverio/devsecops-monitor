@@ -7,7 +7,6 @@ services:
     volumes:
       - grafana-storage:/var/lib/grafana
       - ./src/grafana/provisioning:/etc/grafana/provisioning
-      - ./src/grafana/provisioning/datasources:/etc/grafana/provisioning/datasources
     environment:
       - GF_INSTALL_PLUGINS=grafana-piechart-panel,grafana-clock-panel
     networks:

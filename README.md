@@ -31,6 +31,7 @@ To install and set up the project, follow these steps:
 
 ### Define Monitoring Requirements
 - [ ] Identify key performance indicators (KPIs) and metrics to be monitored.
+  - [X] Shift Dashboard
 - [ ] Determine data collection frequency and necessary alerts.
 
 ### Set Up Monitoring Environment
